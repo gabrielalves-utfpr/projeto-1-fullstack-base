@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NASA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = 'image-container'>
+            <!--
+            <img id ='background-head' src="assets/earth-overlay-2.png" alt="">
+            -->
+            <div class = "top-bar">
+                <div class="logo">
+                    <img id="globe" for="nasa" src="assets/globe_with_satellites.svg" alt="">
+                    <h1 class="nasa-font" id = "nasa" for="globe">NASA</h1>
+                </div>
+                <div class = "menu">
+                    <a class="menu-opt" id="menu-home">Home</a>
+                    <a class="menu-opt" id="menu-missions">Missions</a>
+                    <a class="menu-opt" id="menu-stories">Stories</a>
+                    <a class="menu-opt" id="menu-asteroids">Asteroids</a>
+                    <a class="menu-opt" id="menu-mars">Mars</a>
+                    <a class="menu-opt" id="menu-climate">Climate</a>
+                    <a class="menu-opt" id="menu-about">About</a>
+                    <lord-icon id ="share-icon"
+                        src="https://cdn.lordicon.com/wxhtpnnk.json"
+                        trigger="hover"
+                        colors="primary:white"
+                        style="width:30px;height:30px">
+                    </lord-icon>
+                </div>
+            </div>
+            <div class = 'search'>
+                <h1 class="welcome">Welcome home,<span class="nasa-font"> Earthling</span></h1>
+                <input id= 'searchbar' type="text" name="text" placeholder="Search..." class="input">
+            </div>
+            <div class="scrolldown">
+                <h3>Scroll Down</h3>
+                <lord-icon
+                    src="https://cdn.lordicon.com/rxufjlal.json"
+                    trigger="loop"
+                    delay="400"
+                    colors="primary:white"
+                    style="width:40px;height:40px">
+                </lord-icon>
+            </div>
+        </div>
+        <div class = 'content'>
+            <div class = 'text-container' id = "intro">
+                <h1 class = "title">What Does NASA Do?</h1>
+                <p>
+                    We reach for new heights and reveal the unknown for the benefit of humankind. <br>
+                    Thousands of people have been working around the world - and off of it - for more than 50 years, finding answers. What's out there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?
+                </p>
+            </div>
+            <div id = "stories">
+                <div class = "row" id="large-row">
+                    <div class="card card-vertical" id="nt-1">
+                        <h4 class="tag-storie">OSIRIS-REX</h4>
+                        <div class="card-text st">
+                            <h3>NASA Scientists see Asteroid through robotic eyes</h1>
+                        </div>
+                    </div>
+                    <div class="center-row">
+                        <div class="row">
+                            <div class="card card-square" id="nt-3">
+                                <h4 class="tag-storie">AERONAUTICS</h4>
+                                <div class="card-text par st">
+                                    <h3>NASA Runs First-Ever Test of New Jet Engine Tech</h1>
+                                </div>
+                            </div>
+                            <div class="card card-square" id="nt-4">
+                                <h4 class="tag-storie">SPACE STATION</h4>
+                                <div class="card-text par st">
+                                    <h3>NASA Administrator Statement on ESA's Commitment to Space Station</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spaceY"></div>
+                        <div class="card card-horizontal" id="nt-5">
+                            <h4 class="tag-storie">NASA'S MODERN FIGURES</h4>
+                            <div class="card-text par st">
+                                <h3>Modern Figures: NASA's Past and Future</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-vertical" id="nt-2">
+                        <h4 class="tag-storie">TIMED</h4>
+                        <div class="card-text par st">
+                            <h3>TIMED: 15 Years Exploring Our Interface to Space</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-ms">MORE STORIES</button>
+            </div>
+            <div id = "news">
+                <div id="twitter">
+                    <!-- 
+                    data-width="300"
+                    data-height="510"-->
+                    <a class="twitter-timeline" 
+                    data-theme="dark" 
+                    data-width="300"
+                    data-height="700"
+                    data-chrome="noborders, noscrollbar, transparent"
+                    data-dnt="true"
+                    href="https://twitter.com/NASA?ref_src=twsrc%5Etfw">Tweets by NASA</a> 
+                    
+                </div>
+                <div class="image-of-the-day">
+                    <div class="image-box">
+                        <h4 class="tag">IMAGE OF THE DAY</h4>
+                        <div class="overlay-text">
+                            <h1>Space Station Flight Over the Southern Tip of Italy</h1>
+                            <p>The southern tip of Italy is visible in this image taken by the Expedition 49 crew aboard the International Space Station on Sept. 17, 2016. The brightly lit city of Naples can be seen in the bottom section of the image A Russian Soyuz spacecraft can be seen in the foreground,</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "missions">
+                <div class="text-container">
+                    <h1 class = "title">Our missions</h1>
+                    <p>
+                        Ten field centers and a variety of installations conduct the day-to-day work, in labora- tories, on air fields, in wind tunnels and in control rooms.
+                    </p>
+                </div>
+                <div class = 'row' id="row-missions">
+                    <a class="previus-arrow" href="">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/jxwksgwv.json"
+                            trigger="hover"
+                            colors="primary:white"
+                            style="width:30px;height:30px;transform: scaleX(-1);">
+                        </lord-icon>
+                    </a>
+                    <div class="card card-mission" id = 'hubble'>
+                        <div class="card-text impar">
+                            <h3>Hubble</h3>
+                            <p>SPACE TELESCOPE</p>
+                        </div>
+                    </div>
+                    <div class="card card-mission" id = 'juno'>
+                        <div class="card-text par">
+                            <h3>Juno</h3>
+                            <p>MISSION AT JUPITER</p>
+                        </div>
+                    </div>
+                    <div class="card card-mission" id = 'newhorizon'>
+                        <div class="card-text impar">
+                            <h3>New Horizon</h3>
+                            <p>PLUTO AND BEYOND</p>
+                        </div>
+                    </div>
+                    <div class="card card-mission" id = 'cassini'>
+                        <div class="card-text par">
+                            <h3>Cassini</h3>
+                            <p>MISSION AT SATURN</p>
+                        </div>
+                    </div>
+                    <a class="forward-arrow" href="">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/jxwksgwv.json"
+                            trigger="hover"
+                            colors="primary:white"
+                            style="width:30px;height:30px;">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id = "foot">
+            <div class = "foot-menu">
+                <a class="foot-opt">Privacy</a>
+                <a class="foot-opt">Office of Inspector General</a>
+                <a class="foot-opt">Agency Financial Reports</a>
+                <a class="foot-opt">Contact NASA</a>
+            </div>
+        </div>
+        <script src="javascript.js" ></script>
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </body>
+</html>
